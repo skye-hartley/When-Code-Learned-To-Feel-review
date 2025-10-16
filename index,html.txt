@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>When Code Learned to Feel — BAYSGATE | Skye Hartley, Static & Signal</title>
+
+  <!-- SEO / Social -->
+  <meta name="description" content="BAYSGATE reverse-engineer heartbreak — and somehow make pop feel dangerous again. Review by Skye Hartley for Static & Signal." />
+  <meta property="og:title" content="When Code Learned to Feel — BAYSGATE" />
+  <meta property="og:description" content="BAYSGATE reverse-engineer heartbreak—and somehow make pop feel dangerous again. Review by Skye Hartley." />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Simple aesthetic CSS -->
+  <style>
+    :root{
+      --bg:#0f1113; --card:#0f1215; --muted:#a9b0b6; --accent:#f0c7c7; --white:#fff;
+      --maxw:880px; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#08101a 0%, #0f1215 100%);color:var(--white)}
+    .wrap{max-width:var(--maxw);margin:36px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+    header{display:flex;gap:18px;align-items:flex-start}
+    .mast{flex:1}
+    h1{font-size:28px;margin:0 0 6px;letter-spacing:-0.02em}
+    h2{font-size:13px;margin:0;color:var(--muted);text-transform:uppercase;letter-spacing:0.14em}
+    .byline{color:var(--muted);margin-top:8px;font-size:13px}
+    .hero{margin:18px 0;border-radius:10px;overflow:hidden}
+    .hero img{width:100%;display:block;height:auto;object-fit:cover}
+    .content{line-height:1.6;color:#e8eef3;font-size:16px;margin-top:12px}
+    .content p{margin:14px 0}
+    .pull{font-weight:700;color:var(--accent);font-size:15px;margin:10px 0;padding-left:10px;border-left:3px solid rgba(255,199,199,0.06)}
+    footer{margin-top:22px;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+    .badge{background:rgba(255,255,255,0.03);padding:6px 10px;border-radius:8px;font-size:13px}
+    .stream-logos img{height:22px;opacity:0.95;margin-left:8px}
+    @media (max-width:600px){h1{font-size:22px} .wrap{margin:18px;padding:18px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="mast">
+        <h2>When Code Learned to Feel</h2>
+        <h1>BAYSGATE reverse-engineer heartbreak—and somehow make pop feel dangerous again</h1>
+        <div class="byline">By Skye Hartley · Static &amp; Signal</div>
+      </div>
+      <div style="min-width:120px;text-align:right">
+        <div class="badge">Streaming Nov 11</div>
+      </div>
+    </header>
+
+    <!-- optional hero image: replace og-image.jpg with your generated artwork -->
+    <div class="hero">
+      <img src="og-image.jpg" alt="When Code Learned to Feel — BAYSGATE" />
+    </div>
+
+    <article class="content">
+      <p><strong>AI’s supposed to kill creativity.</strong> Someone forgot to tell BAYSGATE. <em>When Code Learned to Feel</em> was born in the mess of real life—ink on fingers, half-mumbled voice notes, nights that ran too long—and handed to a machine just to sing it. The result isn’t proof that AI can create, but that it still needs something human to feel.</p>
+
+      <p>The record doesn’t ease you in; it <strong>kicks the door clean off</strong> with <em>Shoes</em>, a 90s-alt sugar rush that could pass for American Hi-Fi’s cooler cousin if they’d grown up on Spotify. From there, <em>Bad Girls Never Sleep</em> veers hard left through a synth haze—like a Miley Cyrus video that got arrested for public indecency. <em>Running When Parked</em> snarls with late-’80s grit, while <em>Glitch</em> just haunts your Wi-Fi.</p>
+
+      <p>Then BAYSGATE get sentimental-weird. <em>The Backup Princess</em> is Disney heartbreak with union dues—a stand-in singer stealing the spotlight and somehow making it hers. <em>Lollipop</em> spins early-sixties innocence into a bubblegum fever dream so sweet you’ll need insulin and therapy.</p>
+
+      <p>Elsewhere, <em>Text STOP STACY</em> nails modern romance with the precision of a passive-aggressive screenshot. <em>Aurora Gory Alice</em> turns prog-rock into a doomed space opera, and <em>404: I Don’t Update Anymore</em> leaves a dumped AI wandering digital purgatory—heartbreaking, glitchy, gorgeous.</p>
+
+      <p>By the time <em>Good Luck With That</em> hits—a funk detonation that sounds like Bruno Mars crashing a Stevie Wonder session—you get it: BAYSGATE aren’t genre-hopping, they’re emotion-surfing. Every mood, every mess, every hook lands.</p>
+
+      <p>Across the album they slide from K-pop shimmer (<em>All About Her</em>) to acoustic confession (<em>Two Voices in the Kitchen</em>), then sink into pure sad-girl cinema (<em>Spillways</em>, <em>You Would Have Liked Her</em>). Every shift feels deliberate—like emotional muscle memory, not musical roulette.</p>
+
+      <p class="pull">Then <em>Dying for Twenty</em> closes the curtain—quiet, merciless, and as haunting as Lisa Germano’s <em>A Psychopath</em>.</p>
+
+      <p>What ties it all together? Voice. Not just the literal ones that glitch, shift, and gender-hop, but the literary one: one writer, one pen, one deeply human perspective reprogramming the machine from the inside.</p>
+
+      <p><em>When Code Learned to Feel</em> doesn’t flex or posture. It listens. It remembers. It feels. It’s self-aware enough to laugh at its own heartbreak and still make you believe in pop again. In an era where algorithms reward sameness, BAYSGATE built a cathedral of contradictions—glitchy yet grounded, theatrical yet intimate, nostalgic and future-coded in the same breath.</p>
+
+      <p><strong>Twenty-nine tracks is a lot.</strong><br>Then again, so are emotions. And BAYSGATE makes every one count.</p>
+    </article>
+
+    <footer>
+      <div>Streaming everywhere <strong>November 11</strong></div>
+      <div class="stream-logos">
+        <!-- Replace these with actual logos or your own icons -->
+        <img src="stream-spotify.png" alt="Spotify" />
+        <img src="stream-apple.png" alt="Apple Music" />
+        <img src="stream-tidal.png" alt="Tidal" />
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
