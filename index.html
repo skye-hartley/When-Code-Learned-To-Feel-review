@@ -45,18 +45,9 @@
       font-size: 1.05rem;
     }
 
-    p {
-      margin-bottom: 1.3em;
-    }
-
-    em {
-      color: #c3c6c8;
-      font-style: italic;
-    }
-
-    strong {
-      color: #ffffff;
-    }
+    p { margin-bottom: 1.3em; }
+    em { color: #c3c6c8; font-style: italic; }
+    strong { color: #ffffff; }
 
     footer {
       border-top: 1px solid #2a2d31;
@@ -67,35 +58,20 @@
       font-size: 0.9rem;
     }
 
-    a {
-      color: #6cc9ff;
-      text-decoration: none;
-    }
+    a { color: #6cc9ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
 
-    a:hover {
-      text-decoration: underline;
-    }
-
-    img.fade-in {
+    /* Smaller album image + simple fade-in */
+    img.hero {
       width: 100%;
-      max-width: 720px;
+      max-width: 560px;          /* <-- scaled back down */
       display: block;
-      margin: 0 auto 2em auto;
+      margin: 0 auto 1.6em auto; /* tighter spacing */
       border-radius: 6px;
       opacity: 0;
-      animation: fadeIn 1.6s ease-in forwards;
-      transition: all 0.3s ease-in-out;
+      animation: fadeSimple 0.9s ease-out forwards;
     }
-
-    img.fade-in:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 6px 18px rgba(255, 255, 255, 0.08);
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
+    @keyframes fadeSimple { to { opacity: 1; } }
 
     h3 {
       text-transform: uppercase;
@@ -107,12 +83,8 @@
     }
 
     @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.6rem;
-      }
-      main {
-        font-size: 1rem;
-      }
+      header h1 { font-size: 1.55rem; } /* a touch smaller for phones */
+      main { font-size: 1rem; }
     }
   </style>
 </head>
@@ -124,7 +96,7 @@
   </header>
 
   <main>
-    <img src="album-cover.jpg" alt="Album cover: When Code Learned to Feel by BAYSGATE" class="fade-in">
+    <img src="album-cover.jpg" alt="Album cover: When Code Learned to Feel by BAYSGATE" class="hero">
 
     <p><em>Album review:</em> <strong>When Code Learned to Feel</strong> by <strong>BAYSGATE</strong></p>
 
@@ -166,11 +138,6 @@
 
     <p><em>Streaming everywhere November 11.</em><br>
     <em>No score this time. Some things don’t fit the algorithm.</em></p>
-
-    <hr style="border:0; border-top:1px solid #2a2d31; margin:3em 0;">
-
-    <h3>About the Writer</h3>
-    <p><strong>Skye Hartley</strong> didn’t mean to become a music journalist — she just kept writing about songs until people started sending her promo links. She’s a Milwaukee-based culture writer filing for <em>Static & Signal</em>, runs on caffeine and quiet awe, and maintains a complicated relationship with the replay button.</p>
   </main>
 
   <footer>
