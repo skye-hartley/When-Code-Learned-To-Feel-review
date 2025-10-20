@@ -37,21 +37,31 @@
       margin: 80px auto 100px;
       padding: 0 24px;
     }
+    h1, h2.headerline {
+      text-align: left;
+      margin-left: 0;
+    }
     h1 {
       font-weight: 500;
       font-size: 28px;
       color: #ffffff;
-      text-align: center;
       margin-bottom: 10px;
     }
-    h2 {
+    h2.headerline {
       font-weight: 400;
       font-size: 13px;
       letter-spacing: 2px;
       text-transform: uppercase;
-      text-align: center;
+      color: #aaa;
+      margin-bottom: 10px;
+    }
+    h2.byline {
+      font-weight: 400;
+      font-size: 13px;
+      text-transform: uppercase;
       color: #aaa;
       margin-bottom: 40px;
+      text-align: left;
     }
     img.hero {
       width: 100%;
@@ -84,13 +94,11 @@
 </head>
 <body>
   <main>
-    <h2>Opinion · Culture · The Future of Pop</h2>
+    <h2 class="headerline">Opinion · Culture · The Future of Pop</h2>
     <h1>A Love Letter to Being Human</h1>
-    <h2>Static & Signal — Review by Skye Hartley</h2>
+    <h2 class="byline">Static & Signal — Review by Skye Hartley</h2>
 
     <img src="album-cover.jpg" alt="When Code Learned to Feel album art" class="hero">
-
-    <p><em>When Code Learned to Feel</em> album art</p>
 
     <p>I’ll be honest — I’m not the kind of person who sits around wondering how songs get made. Same way I don’t ask my favorite Riverwest diner what’s in the cheesecake that tastes like heartbreak and vanilla extract. Some mysteries are better left unsolved.</p>
 
