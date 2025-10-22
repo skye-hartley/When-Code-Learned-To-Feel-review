@@ -7,17 +7,22 @@
 
   <meta name="description" content="BAYSGATE’s debut album 'When Code Learned to Feel' — reviewed by Skye Hartley for Static & Signal. A love letter to being human in the age of artificial pop.">
 
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
   <style>
     body {
       margin: 0;
       background-color: #0f0f0f;
       color: #e6e6e6;
-      font-family: "Georgia", "Times New Roman", serif;
-      line-height: 1.65;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.7;
       font-size: 17px;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
     }
     @media (max-width: 640px) {
-      body { line-height: 1.75; }
+      body { font-size: 16px; line-height: 1.75; }
     }
     main {
       max-width: 760px;
@@ -41,7 +46,7 @@
       margin-bottom: 40px;
     }
 
-    /* Hero container with overlay caption */
+    /* Hero container */
     .hero-wrap {
       position: relative;
       width: 100%;
@@ -50,6 +55,7 @@
       overflow: hidden;
       border-radius: 4px;
       border: 1px solid #222;
+      cursor: pointer;
     }
     .hero {
       width: 100%;
@@ -84,7 +90,9 @@
       gap: 6px;
       text-shadow: 0 1px 2px rgba(0,0,0,0.6);
       transition: opacity 0.7s ease 0.25s, transform 0.7s ease 0.25s;
+      pointer-events: none;
     }
+    .hero-wrap.show-caption .hero-caption,
     .hero-wrap:hover .hero-caption {
       opacity: 1;
       transform: translateY(0);
@@ -100,7 +108,7 @@
     @keyframes fadein { to { opacity: 1; } }
 
     p { margin: 20px 0; }
-    em { color: #ccc; }
+    em { color: #ccc; font-style: italic; }
     strong { color: #fff; font-weight: 600; }
     hr {
       border: none;
@@ -124,7 +132,7 @@
     <h1>A Love Letter to Being Human</h1>
     <h2>Static & Signal — Review by Skye Hartley</h2>
 
-    <div class="hero-wrap">
+    <div class="hero-wrap" id="heroWrap">
       <img src="album-cover.jpg" alt="When Code Learned to Feel album art" class="hero">
       <div class="hero-caption">
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -152,7 +160,7 @@
 
     <p><em>When Code Learned to Feel</em> doesn’t flex or apologize. It just stares you down and dares you to feel something inconvenient. While the rest of the industry keeps sanding the edges off emotion, BAYSGATE went ahead and built a collaboration of contradictions — messy, bold, and alive.</p>
 
-    <p><strong>“Good Luck With That”</strong> struts with funk-pop payback, and <strong>“All About Her”</strong> explores a girl-girl crush glowing with genuine K-pop shimmer that <em>Hatsune Miku</em> would be proud of, before gliding into the haunted confessions of <strong>“Two Voices in the Kitchen,”</strong> and the demi-static ache of <strong>“Spillways”</strong> and <strong>“You Would Have Liked Her.”</strong></p>
+    <p><strong>“Good Luck With That”</strong> struts with funk-pop payback, and <strong>“All About Her”</strong> explores a girl-girl crush glowing with genuine K-pop shimmer that <em>Hatsune Miku</em> would be proud of, before gliding into the weary confessions of <strong>“Two Voices in the Kitchen,”</strong> and the demi-static ache of <strong>“Spillways”</strong> and <strong>“You Would Have Liked Her.”</strong></p>
 
     <p>And then there’s <strong>“Better Off as Zombies”</strong> — a funky jazz-pop side-eye at modern life, so self-aware it hurts. <strong>“Dying for Twenty”</strong> closes it out — quiet, merciless, and haunting.</p>
 
@@ -175,5 +183,13 @@
       <a href="mailto:skye.hartley.media@gmail.com">skye.hartley.media@gmail.com</a>
     </footer>
   </main>
+
+  <script>
+    // Toggle quote visibility on tap for mobile
+    const hero = document.getElementById('heroWrap');
+    hero.addEventListener('click', () => {
+      hero.classList.toggle('show-caption');
+    });
+  </script>
 </body>
 </html>
