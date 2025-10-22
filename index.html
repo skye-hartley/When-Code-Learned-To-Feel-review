@@ -8,14 +8,14 @@
   <meta name="description" content="BAYSGATE’s debut album 'When Code Learned to Feel' — reviewed by Skye Hartley for Static & Signal. A love letter to being human in the age of artificial pop.">
 
   <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600&display=swap" rel="stylesheet">
 
   <style>
     body {
       margin: 0;
       background-color: #0f0f0f;
       color: #e6e6e6;
-      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-family: "IBM Plex Serif", Georgia, serif;
       line-height: 1.7;
       font-size: 17px;
       -webkit-font-smoothing: antialiased;
@@ -185,10 +185,19 @@
   </main>
 
   <script>
-    // Toggle quote visibility on tap for mobile
     const hero = document.getElementById('heroWrap');
-    hero.addEventListener('click', () => {
+
+    // Toggle caption on tap
+    hero.addEventListener('click', (e) => {
+      e.stopPropagation();
       hero.classList.toggle('show-caption');
+    });
+
+    // Hide caption if tapped elsewhere
+    document.addEventListener('click', (e) => {
+      if (!hero.contains(e.target)) {
+        hero.classList.remove('show-caption');
+      }
     });
   </script>
 </body>
